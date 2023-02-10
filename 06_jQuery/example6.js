@@ -2,21 +2,21 @@
 
 function animateMyDiv() {
 
-    $("#content_div").animate({right: '200px'});
+    $("#content_div").animate({right: '600px'});
 
-    $("#content_div").animate({bottom: '200px'});
+    $("#content_div").animate({bottom: '600px'});
 
     //multiple params
-    $("#content_div").animate({bottom: '400px',  opacity: '0.5',  height: '150px',  width: '150px'});
+    $("#content_div").animate({bottom: '200px',  opacity: '0.8',  height: '100px',  width: '100px'});
 
     //animate with a 'callback' function (fired when animation is complete)
-    $("#content_div").animate({right: '500px'}, function() {
+    $("#content_div").animate({right: '250px'}, function() {
         allDone();
     });
 }
 
 function allDone() {
-    alert("all done.");
+    alert("I changed code like a big boy!.");
 }
 
 

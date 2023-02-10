@@ -7,11 +7,11 @@ $(document).ready(function(){
     });
 
     $("#addproperty_button").click(function(){
-        $("#content_div").css({ "font-size" : "24pt" });
+        $("#content_div").css({ "font-size" : "20pt" });
     });
 
     $("#addproperties_button").click(function(){
-        $("#content_div").css({ "font-size" : "12pt", "color" : "red", "font-family" : "Courier", "background-color" : "yellow" });
+        $("#content_div").css({ "font-size" : "12pt", "color" : "red", "font-family" : "Courier", "background-color" : "black", "text-align" : "center"});
         $("#content_div").html("<h1>THIS IS FUN!</h1>");
     });
 
