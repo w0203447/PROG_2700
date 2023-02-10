@@ -3,7 +3,7 @@
 function getDataFromAPI() {
 
     //https://data.novascotia.ca/Crime-and-Justice/Crime-Statistics-Crime-Severity-Index/w64p-5ue3
-    var url = "https://data.novascotia.ca/resource/w64p-5ue3.json";
+    var url = "https://data.novascotia.ca/resource/kak2-qqg9.json";
 
     $.get(url, function(data, status){
         alert("Got Data\nStatus: " + status);
