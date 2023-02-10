@@ -1,5 +1,5 @@
 
-let str = "Welcome to NSCC";
+let str = "Aaron is the coolest!";
 
 console.log("length of [", str, "] is ",str.length);
 

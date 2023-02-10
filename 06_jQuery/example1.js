@@ -5,9 +5,11 @@ function getDataFromAPI() {
     //example: https://data.novascotia.ca/resource/2shh-dv8p.json?facility_town=YARMOUTH
 
     var facility_town = $("#facility_town").val();
+    var facility = $("#facility").val();
 
     var url = "https://data.novascotia.ca/resource/2shh-dv8p.json?"; 
         url +=  "facility_town=" + facility_town.toUpperCase();
+        url += "&facility=" + facility.toUpperCase();
 
     $.get(url, function(data, status){
         console.log(data, status);

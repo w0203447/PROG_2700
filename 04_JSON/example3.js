@@ -1,6 +1,6 @@
 
 //create a string representing a JSON Structure
-var jsonStr = '{ "name" : "Jamie", "age": 99, "occupation" : "instructor" }';
+var jsonStr = '{ "first_name" : "Aaron", "last_name" : "DeViller", "age": 34, "occupation" : "Gigalo" }';
 
 //turn that string into a JSON object
 var person = JSON.parse(jsonStr);

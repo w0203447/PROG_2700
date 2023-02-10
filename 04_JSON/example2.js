@@ -1,5 +1,5 @@
 
-const array = ["one", "two", "three", "four", "five", "six"];
+const array = ["City of God", "Family Man", "Fight Club", "Shawshank Redemption", "The Godfather", "Ace Ventura Pet Detective: When Nature Calls"];
 
 console.log("using a pure old fashioned for-loop!");
 
