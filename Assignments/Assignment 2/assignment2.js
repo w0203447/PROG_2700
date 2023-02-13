@@ -1,6 +1,7 @@
 function getDataFromAPI() {
+
     // Check if the jQuery library has been imported
-    if (typeof $ === 'undefined') {
+    if (typeof $ == 'undefined') {
         alert('jQuery is not loaded');
         return;
     }
@@ -24,6 +25,9 @@ function getDataFromAPI() {
 
     var url = "https://data.novascotia.ca/resource/kak2-qqg9.json"; 
     url +=  "?$where=ageyears%20%3C%20" + parseInt(age) + "%20AND%20marriedstatus=%27" + marry + "%27";
+
+    // Show the "please wait" image
+    $("#results_container").html("<img src='pleasewait.gif' />");
 
     $.get(url, function(data, status){
         // Check if the API request was successful
